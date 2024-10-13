@@ -21,7 +21,7 @@ def sumRecursive(n : int) :
     # 더 이상 쪼개지지 않는 최소한의 작업을 항상 명시 해야 힘.
     '''
     1. 재귀를 종료 시키는 코드 (base case)
-    2. 재귀를 진행시키는 코드 ( 
+    2. 재귀를 진행시키는 코드
     '''
     return n + sumRecursive(n-1)
 
@@ -65,4 +65,3 @@ def backtrack(start, path):
     return combinations
 
 print(backtrack(0, []))
-
